@@ -54,3 +54,9 @@
 		display: block;
 	}
 </style>
+
+<script>
+	// NOTE: This is .html file, i.e. it won't get preprocessed. Nevertheless it should be able to import TS stuffs
+	import { someOtherMagicNumber } from './SomeTsStuff/SomeOtherTsStuff';
+	console.log('Magic number from SomeOtherTsStuff.ts: ' + someOtherMagicNumber);
+</script>

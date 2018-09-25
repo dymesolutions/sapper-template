@@ -2,6 +2,8 @@
 	<title>Sapper project template</title>
 </svelte:head>
 
+<Banner />
+
 <h1>Great success!</h1>
 
 <figure>
@@ -44,3 +46,11 @@
 		}
 	}
 </style>
+
+<script>
+	export default {
+		components: {
+			Banner: '../components/Banner/Banner.svelte'
+		}
+	}
+</script>
